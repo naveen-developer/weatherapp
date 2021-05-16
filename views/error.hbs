@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather App About</title>
+      {{>mylinks}}
+</head>
+<body>
+
+{{>navbar}}
+
+<!-- Main Header -->
+<div class="container-fluid main_header">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <!-- Main header right-->
+                <div class="col-md-6 col-12 mx-auto main_header_right">
+                    <figure>
+                        <img src="images/error_img.jpg" class="img-fluid" title="feargirl" />
+                    </figure>
+                
+                    <h2 class="text-capitalize mx-auto">{{errorMsg}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{>footer}}
+</body>
+</html>

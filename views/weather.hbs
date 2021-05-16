@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather App Weather</title>
+      {{>mylinks}}
+</head>
+<body>
+
+{{>navbar}}
+
+<!-- Main Header -->
+<div class="container-fluid main_header">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="main_input_div">
+            
+            <div class="input_box">
+                <h2 class="my-4">Weather Information By City Name</h2>
+                <input type="text" placeholder="Enter City name here" id="city_name"/>
+                <button id="search_btn">Search</button>
+            </div>
+            <div class="result_box">
+                <div class="result_header">
+                    <span id="current_day">Wednes Day</span><span id="current_month">13th Oct</span>
+                </div>
+                <p id="msg">Get Output here</p>
+                <h2><span id="my_deg">0</span><sup>0</sup>C<span style="color: #fff176; margin-left:50px;"><i class="fas fa-sun"></i></span></h2>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{>footer}}
+<script src="js/main.js"></script>
+</body>
+</html>
